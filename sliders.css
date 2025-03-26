@@ -1,0 +1,70 @@
+
+:root{
+  --body-bg: #f4f4f4;
+  --item-bg: #fff;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+  width: 100%;
+}
+partner-section{
+  padding: 50px 0;
+  background-color: var(--body-bg);
+}
+
+section-tilte{
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.logo-slider{
+  overflow: hidden;
+}
+.overflow{
+  display: flex;
+  overflow: hidden;
+}
+
+.reverse .logos-wrapper{
+    animation-direction: reverse;
+}
+.logos-wrapper{
+  display: flex;
+  justify-content: space-between;
+  animation: logoloop 30s linear infinite;
+  
+}
+.logo-item{
+  margin-left: 1rem;
+  padding: 1rem;
+  aspect-ratio: 30/9;
+  background-color: var(--item-bg);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+}
+
+.logo-item img{
+  height: 80px;
+  width: 80px;
+  margin-inline: 2rem;
+}
+
+@keyframes logoloop{
+    fron{
+      transform: translateX(0);
+    }
+    to{
+      transform: translateX(-100%);
+    }
+}

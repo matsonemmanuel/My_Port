@@ -9,25 +9,27 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+  <header>
   <nav class="navbar">
     <a href="#" class="logo">Portfolio</a>
     <ul>
-      
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">portfolio</a></li>
-      <li><a href="#">service</a></li>
-      <li><a href="#">Contact</a></li>
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">portfolio</a></li>
+      <li><a href="#service">service</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-<div class="bars-animation">
-  <div class="bars" style="--1:6;"></div>
-  <div class="bars" style="--1:5;"></div>
-  <div class="bars" style="--1:4;"></div>
-  <div class="bars" style="--1:3;"></div>
-  <div class="bars" style="--:2;"></div>
-  <div class="bars" style="--1:1;"></div>
-</div>
+</header>
+  <div class="bars-animation">
+    <div class="bars" style="--1:6;"></div>
+    <div class="bars" style="--1:5;"></div>
+    <div class="bars" style="--1:4;"></div>
+    <div class="bars" style="--1:3;"></div>
+    <div class="bars" style="--:2;"></div>
+    <div class="bars" style="--1:1;"></div>
+  </div>
+<!-- Home section -->
   <section class="home">
     <div class="home-info">
       <h1>Emmanuel Matson </h1>
@@ -60,12 +62,22 @@
       </div>
     </div>
   </section>
-  <!--aboout section-->
-  <section class="about" id="about">
-      <div class="about">
-        <h1>About <span>Me !</span></h1>
-        <img src="Hiiim.png" alt="">
+
+  <!-- About section -->
+   <section class="about" id="about">
+    <div class="about-img">
+      <img src="Hiiim.png" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Fronted Developer</h3>
+      <p>I'm a Frontend Developer with a passion for creating   beautiful and functional user interfaces.<br>
+       I have experience in HTML, CSS, and JavaScript, and I'm always eager to learn new technologies and improve my skills.</p>
+      <div class="about-content-btn">
+        <button><a href="">Read More</a></button>
       </div>
-  </section>
+    </div>
+   </section>
 </body>
 </html>

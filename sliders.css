@@ -55,9 +55,10 @@ h3{
 }
 
 .logo-item img{
-  height: 80px;
-  width: 80px;
+  height: 140px;
+  width: 140px;
   margin-inline: 2rem;
+  border-radius: 10px;
 }
 
 @keyframes logoloop{

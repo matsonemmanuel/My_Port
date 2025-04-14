@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+ <p id="myParagraph">This is original</p>
+
+ <button onclick="changeText()">Change this text</button>
+
+ <script>
+function changeText(){
+  const para = document.getElementById("myParagraph");
+  para.innerHTML = "This is new text";
+}
+
+ </script>
+</body>
+</html>

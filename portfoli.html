@@ -10,12 +10,18 @@
 
  <button onclick="changeText()">Change this text</button>
 
+ <button id="myBtn">Click Me</button>
+ <p id="msg"></p>
+
  <script>
 function changeText(){
   const para = document.getElementById("myParagraph");
   para.innerHTML = "This is new text";
 }
 
+document.getElementById("myBtn").addEventListener("click", ()=>{
+  document.getElementById("msg").textContent = "Button was clicked";
+});
  </script>
 </body>
 </html>
